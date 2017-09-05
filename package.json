@@ -1,0 +1,35 @@
+{
+  "name": "amqp_utils",
+  "version": "1.0.0",
+  "main": "'",
+  "license": "MIT",
+  "scripts": {
+    "compile": "gulp compile",
+    "lint": "gulp lint",
+    "test-debug": "gulp test-debug",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "async": "^2.5.0",
+    "babel-eslint": "^7.2.3",
+    "es6-promisify": "^5.0.0",
+    "eslint-config-airbnb-lite": "^1.0.4",
+    "eslint-html-reporter": "^0.5.2",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-mocha": "^4.3.1",
+    "highland": "^2.11.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.6.1",
+    "gulp": "^3.9.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.0.3",
+    "should": "^11.2.1"
+  },
+  "description": "Utilities for RabbitMQ",
+  "author": "Nishant Jain"
+}
