@@ -9,6 +9,18 @@
     "test-debug": "gulp test-debug",
     "test": "gulp test"
   },
+  "keywords": [
+    "amqplib",
+    "simple-amqplib-wrapper",
+    "amqplib-wrapper",
+    "rabbitmq",
+    "rabbitmq-client",
+    "rabbitmq-nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishant-jain-94/simple-amqplib-wrapper"
+  },
   "dependencies": {
     "amqplib": "^0.5.1",
     "async": "^2.5.0",
