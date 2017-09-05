@@ -1,5 +1,5 @@
 {
-  "name": "amqp_utils",
+  "name": "simple-amqplib-wrapper",
   "version": "1.0.0",
   "main": "'",
   "license": "MIT",
