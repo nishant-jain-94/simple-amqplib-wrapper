@@ -1,6 +1,6 @@
 {
   "name": "simple-amqplib-wrapper",
-  "version": "1.0.1-rc.2",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
