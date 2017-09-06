@@ -247,11 +247,11 @@
               <tbody>
                 <tr>
                   <td>Errors</td>
-                  <td>1</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td>Warnings</td>
-                  <td>0</td>
+                  <td>1</td>
                 </tr>
               </tbody>
               <tfoot>
@@ -267,21 +267,21 @@
               <tbody>
                 <tr>
                   <td>Files with errors</td>
-                  <td>1</td>
-                </tr>
-                <tr>
-                  <td>Files with only warnings</td>
                   <td>0</td>
                 </tr>
                 <tr>
+                  <td>Files with only warnings</td>
+                  <td>1</td>
+                </tr>
+                <tr>
                   <td>Clean files</td>
-                  <td>4</td>
+                  <td>5</td>
                 </tr>
               </tbody>
               <tfoot>
                 <tr>
                   <td>Total files linted</td>
-                  <td>5</td>
+                  <td>6</td>
                 </tr>
               </tfoot>
           </table>
@@ -294,19 +294,19 @@
           <div class="table-column">
             <h3>Errors</h3>
         
-              <table class="summary-table">
-                <tbody>
-                    <tr class="occurance row-0">
-                        <td><a href="http://eslint.org/docs/rules/space-before-function-paren">space-before-function-paren</a></td>
-                      <td>1</td>
-                    </tr>
-                </tbody>
-              </table>
+              <p>No errors were found!</p>
           </div>
           <div class="table-column">
             <h3>Warnings</h3>
         
-              <p>No warnings were found!</p>
+              <table class="summary-table">
+                <tbody>
+                    <tr class="occurance row-0">
+                        <td><a href="http://eslint.org/docs/rules/no-console">no-console</a></td>
+                      <td>1</td>
+                    </tr>
+                </tbody>
+              </table>
           </div>
         </div>
 
@@ -321,21 +321,23 @@
             <th class="warning-col">Warnings</th>
           </tr>
         </thead>
-        <tbody><tr class="danger"><td>            <a class="toggle-link" href="javascript:;" onclick="toggleDetails(this)">/home/nishant/workspace/ontology-manager-group/simple-amqp-lib/amqplib/amqplib.js</a></td>
-              <td>1</td>
-              <td>0</td></tr><tr class="details-row hidden">
+        <tbody><tr class="warning"><td>            <a class="toggle-link" href="javascript:;" onclick="toggleDetails(this)">/home/nishant/workspace/ontology-manager-group/simple-amqp-lib/example/example.js</a></td>
+              <td>0</td>
+              <td>1</td></tr><tr class="details-row hidden">
                 <td colspan="3">
                   <table class="details-table">
-                    <tbody><tr class="msg-danger"><td class="location-col">
-                              54:26
+                    <tbody><tr class="msg-warning"><td class="location-col">
+                              13:5
                           </td>
-                          <td class="severity-col">Error</td>
-                          <td class="message-col">Unexpected space before function parentheses.</td>
-                            <td class="rule-col"><a href="http://eslint.org/docs/rules/space-before-function-paren">space-before-function-paren</a></td>
+                          <td class="severity-col">Warning</td>
+                          <td class="message-col">Unexpected console statement.</td>
+                            <td class="rule-col"><a href="http://eslint.org/docs/rules/no-console">no-console</a></td>
       </tr></tbody>
                   </table>
                 </td>
-              </tr><tr class="success"><td>/home/nishant/workspace/ontology-manager-group/simple-amqp-lib/amqplib/amqplib.test.js</td>
+              </tr><tr class="success"><td>/home/nishant/workspace/ontology-manager-group/simple-amqp-lib/amqplib/amqplib.js</td>
+              <td>0</td>
+              <td>0</td></tr><tr class="success"><td>/home/nishant/workspace/ontology-manager-group/simple-amqp-lib/amqplib/amqplib.test.js</td>
               <td>0</td>
               <td>0</td></tr><tr class="success"><td>/home/nishant/workspace/ontology-manager-group/simple-amqp-lib/amqplib/index.js</td>
               <td>0</td>

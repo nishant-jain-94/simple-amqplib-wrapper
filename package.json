@@ -1,6 +1,6 @@
 {
   "name": "simple-amqplib-wrapper",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,7 @@
     "lint": "gulp lint",
     "test-debug": "gulp test-debug",
     "test": "gulp test",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"   
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
     "amqplib",
@@ -26,17 +26,13 @@
     "amqplib": "^0.5.1",
     "async": "^2.5.0",
     "babel-eslint": "^7.2.3",
-    "es6-promisify": "^5.0.0",
     "eslint-config-airbnb-lite": "^1.0.4",
     "eslint-html-reporter": "^0.5.2",
-    "gulp-babel": "^7.0.0",
     "gulp-eslint": "^4.0.0",
     "gulp-mocha": "^4.3.1",
     "highland": "^2.11.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
     "coveralls": "^2.13.1",
     "eslint": "^4.6.1",
     "gulp": "^3.9.1",
