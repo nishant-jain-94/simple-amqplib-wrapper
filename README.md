@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/simple-amqplib-wrapper.png)](https://nodei.co/npm/simple-amqplib-wrapper/)
 
-[Simple Amqplib Wrapper](https://www.npmjs.com/package/simple-amqplib-wrapper) is a wrapper around [amqplib](https://www.npmjs.com/package/amqplib) abstracting all the complexity.
+[Simple Amqplib Wrapper](https://www.npmjs.com/package/simple-amqplib-wrapper) is a wrapper around [amqplib](https://www.npmjs.com/package/amqplib) abstracting all the complexity. Currently works only on [Node v8.0](https://nodejs.org/en/blog/release/v8.0.0/)
 
 ## Amqplib vs Simple-Amqplib-Wrapper ?
 
