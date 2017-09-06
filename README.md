@@ -1,6 +1,8 @@
-# Simple-Amqplib-Wrapper 
+# Simple-Amqplib-Wrapper [![travis](https://travis-ci.org/nishant-jain-94/simple-amqplib-wrapper.svg?branch=dev)](https://travis-ci.org/nishant-jain-94/simple-amqplib-wrapper) [![dependencies](https://david-dm.org/nishant-jain-94/simple-amqplib-wrapper.svg)](https://david-dm.org) [![Coverage Status](https://coveralls.io/repos/github/nishant-jain-94/simple-amqplib-wrapper/badge.svg)](https://coveralls.io/github/nishant-jain-94/simple-amqplib-wrapper) 
 
-[Simple Amqplib Wrapper]() is a wrapper around [amqplib](https://www.npmjs.com/package/amqplib) abstracting all the complexity.
+[![NPM](https://nodei.co/npm/simple-amqplib-wrapper.png)](https://nodei.co/npm/simple-amqplib-wrapper/)
+
+[Simple Amqplib Wrapper](https://www.npmjs.com/package/simple-amqplib-wrapper) is a wrapper around [amqplib](https://www.npmjs.com/package/amqplib) abstracting all the complexity.
 
 ## Amqplib vs Simple-Amqplib-Wrapper ?
 
