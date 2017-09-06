@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const gulp  = require('gulp');
-const babel = require('gulp-babel');
 const mocha = require('gulp-mocha');
 const eslint = require('gulp-eslint');
 const reporter = require('eslint-html-reporter');
@@ -31,9 +30,5 @@ gulp.task('test-debug', () => {
       process.exit(1);
     });
 });
-
-gulp.task('compile', () => gulp.src('amqplib/*.js').pipe(babel({
-  presets: ['env'],
-})).pipe(gulp.dest('dist')));
 
 gulp.task('default', ['lint', 'test']);

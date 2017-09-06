@@ -10,7 +10,7 @@ const publisher = () => {
 
 const consumer = () => {
   amqp.consumeStream(q).take(1).each((msg) => {
-    console.log(msg);
+    // console.log(msg);
     amqp.acknowledge(msg);
   });
 };

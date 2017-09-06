@@ -1,6 +1,6 @@
 const highland = require('highland');
-const promisify = require('es6-promisify');
 const amqp = require('amqplib/callback_api');
+const promisify = require('util').promisify;
 const amqpConnect = promisify(amqp.connect);
 
 class AmqpLib {
