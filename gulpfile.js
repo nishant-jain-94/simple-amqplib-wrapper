@@ -17,7 +17,7 @@ gulp.task('lint', () => {
 
 gulp.task('test', () => {
   return gulp.src(['**/*.test.js', '!node_modules/**', '!coverage/**'])
-    .pipe(mocha({reporter: 'nyan'}))
+    .pipe(mocha({reporter: 'spec'}))
     .once('error', () => {
       process.exit(1);
     });
@@ -25,7 +25,7 @@ gulp.task('test', () => {
 
 gulp.task('test-debug', () => {
   return gulp.src(['**/*.test.js', '!node_modules/**'])
-    .pipe(mocha({reporter: 'nyan', inspectBrk: true}))
+    .pipe(mocha({reporter: 'spec', inspectBrk: true}))
     .once('error', () => {
       process.exit(1);
     });

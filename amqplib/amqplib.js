@@ -95,7 +95,6 @@ class AmqpLib {
    */
   async sendToQueue(queue, msg, options) {
     const channel = await this.channel();
-    await this.assertQueue(queue);
     const sendStatus = channel.sendToQueue(queue, new Buffer(JSON.stringify(msg)), options);
     return sendStatus;
   }
