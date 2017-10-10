@@ -109,9 +109,6 @@ class AmqpLib {
   consumeStream(queue, options) {
     return highland(async(push) => {
       const channel = await this.channel();
-      if(options.prefetchCount) {
-        channel.prefetch(options.prefetchCount);
-      }
       channel.consume(queue, (msg) => {
         push(null, msg);
       }, options);
